@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Haven | Products</title>
+    <style>
+        body{
+            font-family: Arial;
+            margin: 0;
+            background: #fff4e6;
+        }
+        header{
+            background: #ff5e42;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 40px;
+        }
+        .card{
+            background: white;
+            width: 250px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+            text-align: center;
+        }
+        .card img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        .btn{
+            background: #ff5e42;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            margin-top:10px;
+            font-size:16px;
+            border-radius:5px;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Our Food Menu</h1>
+</header>
+
+<div class="container">
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1606756790138-9b81a0a69a1f" alt="Burger">
+        <h3>Cheese Burger</h3>
+        <p>$8.99</p>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1601924582975-7aa61c0fbb48" alt="Pizza">
+        <h3>Italian Pizza</h3>
+        <p>$12.50</p>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1553621042-f6e147245754" alt="Pasta">
+        <h3>Classic Pasta</h3>
+        <p>$10.00</p>
+    </div>
+</div>
+
+<center>
+    <button class="btn" onclick="location.href='payments.html'">Proceed to Payment</button>
+</center>
+
+</body>
+</html>
