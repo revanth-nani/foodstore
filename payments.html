@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Haven | Payment</title>
+    <style>
+        body{
+            font-family: Arial;
+            background: #fde5d9;
+            margin: 0;
+        }
+        header{
+            background: #ff5e42;
+            padding: 20px;
+            color:white;
+            text-align: center;
+        }
+        .payment-box{
+            background: white;
+            width: 350px;
+            margin: 50px auto;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #aaa;
+        }
+        input{
+            width: 100%;
+            padding: 10px;
+            margin-top:10px;
+            border-radius:5px;
+            border:1px solid #ccc;
+        }
+        .btn{
+            background:#ff5e42;
+            color:white;
+            padding:10px;
+            width:100%;
+            border:none;
+            border-radius:5px;
+            font-size:18px;
+            cursor:pointer;
+            margin-top:20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Payment Page</h1>
+</header>
+
+<div class="payment-box">
+    <h3>Enter Payment Details</h3>
+    <input type="text" placeholder="Full Name">
+    <input type="text" placeholder="Card Number">
+    <input type="text" placeholder="Expiration Date">
+    <input type="text" placeholder="CVV">
+
+    <button class="btn" onclick="location.href='thankyou.html'">Pay Now</button>
+</div>
+
+</body>
+</html>
